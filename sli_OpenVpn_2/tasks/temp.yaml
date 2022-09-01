@@ -1,0 +1,6 @@
+---
+- name: download all keys
+  ansible.builtin.fetch:
+    scr:  "/etc/openvpn/client-configs/keys/ca.crt"
+    dest: "./"
+

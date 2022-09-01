@@ -1,0 +1,12 @@
+---
+# Создать фалы ovpn в каталоге {{openvpn_dir}}/client-configs/keys/
+- name: create client config
+  template:
+    src: openvpn.client.j2
+    dest: "{{openvpn_dir}}/client-configs/keys/{{ item }}.ovpn"
+    owner: root
+    group: root
+    mode: 0400
+  with_items:
+    - "{{ openvpn_clients }}"
+
