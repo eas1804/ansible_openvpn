@@ -1,5 +1,2 @@
-[auto]
-pc_IP101 ansible_ssh_host=el2.mlp.pp.ua 
-
 [manual]
-pc_IP102 ansible_ssh_host=el2.mlp.pp.ua 
+pc_IP102 ansible_ssh_host=172.16.15.102

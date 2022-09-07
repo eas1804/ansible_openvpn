@@ -7,4 +7,5 @@
 - include_tasks: 4-Copy_Files.yaml
 - include_tasks: 5-config_server.yaml
 - include_tasks: 6-config_clients.yaml
-#- include_tasks: temp.yaml
+- include_tasks: 7-Download_conf.yaml
+- include_tasks: 8-reboot.yaml
