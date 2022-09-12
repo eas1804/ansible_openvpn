@@ -4,10 +4,10 @@
 easyrsa_dir: "/usr/share/easy-rsa"
 openvpn_dir: "/etc/openvpn"
 
-openvpn_addres:  el2.mlp.pp.ua
-openvpn_port: 1196
+openvpn_addres:  16.16.4.203
+openvpn_port: 1194
 openvpn_proto: udp
-openvpn_interface: eth0
+openvpn_interface: ens5
 
 openvpn_clients:
   - exch_adm
